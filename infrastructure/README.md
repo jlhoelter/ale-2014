@@ -21,6 +21,15 @@ sudo puppet module install rtyler-jenkins
 sudo puppet apply puppet/jenkins.pp
 ```
 
+#### Sonar
+
+Install Sonar SQM Server
+
+```
+sudo puppet module install maestrodev-sonarqube
+sudo puppet apply puppet/sonar.pp
+```
+
 #### Nginx
 
 Install Nginx as Proxy Server for Jenkins, Nexus and Sonar.
