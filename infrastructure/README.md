@@ -1,6 +1,6 @@
-# Infrastructure Setup
+## Infrastructure Setup
 
-## Build Server
+### Build Server
 
 The following Software is installed on the build server.
 
@@ -10,9 +10,9 @@ The following Software is installed on the build server.
 * Sonar
 * Nexus
 
-## Installation
+### Installation
 
-### Jenkins Server
+#### Jenkins Server
 
 Install Jenkins Server including Plugins.
 
@@ -21,7 +21,7 @@ sudo puppet module install rtyler-jenkins
 sudo puppet apply puppet/jenkins.pp
 ```
 
-### Nginx
+#### Nginx
 
 Install Nginx as Proxy Server for Jenkins, Nexus and Sonar.
 
